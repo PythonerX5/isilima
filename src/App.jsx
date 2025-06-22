@@ -53,7 +53,7 @@ function App() {
       </div>
       {showForm && (
         <div style={{ marginTop: '20px', textAlign: 'center' }}>
-          <p>Bende seni portakalli ordegim</p>
+          <p>EVLENIYORRUZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ</p>
         </div>
       )}
     </>
