@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <h1>BENI SEVIYON MU??????</h1>
+      <h1>BENIMLE EVLENCEK MISIN??????</h1>
       <div style={{ position: 'relative', height: '100px' }}>
         <button 
           id='evetbtn' 
