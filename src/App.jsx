@@ -4,17 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [evetSize, setEvetSize] = useState(16); // Initial font size for EVET
-  const [hayirSize, setHayirSize] = useState(16); // Initial font size for HAYIRRRR
-  const [showForm, setShowForm] = useState(false); // Control form visibility
+  const [evetSize, setEvetSize] = useState(16); 
+  const [hayirSize, setHayirSize] = useState(16); 
+  const [showForm, setShowForm] = useState(false); 
 
   const handleHayirClick = () => {
-    setEvetSize(evetSize * 1.2); // Grow EVET by 20%
-    setHayirSize(hayirSize * 0.8); // Shrink HAYIRRRR by 20%
+    setEvetSize(evetSize * 1.2); 
+    setHayirSize(hayirSize * 0.8); 
   };
 
   const handleEvetClick = () => {
-    setShowForm(true); // Show form when EVET is clicked
+    setShowForm(true); 
+    setEvetSize(evetSize * 1.2)
   };
 
   return (
